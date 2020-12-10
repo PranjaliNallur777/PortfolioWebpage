@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width.initial-scale=1.0" />
+    <title>Pranjali Nallur</title>
+    <link rel="stylesheet" type="text/css" href="Website2.css" />
+  </head>
+  <body>
+      <div class="menu">
+          <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="Website1.html">Home</a>
+                Art
+                <a href="Website2.html">Illustrations</a>
+                About
+          </div>
+          <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+      </div>
+
+      <div class="display">
+        <div class="illustration">
+              <img src="Illustration 1.png">
+              <div class="overlay">
+                  <div class="text">
+                       The brief was to create a dystopian world for a children's novel. The illustration had to be simple yet captivating, to hold the attention of the child. The story revolves around an orphan, who learns that he might not be as alone as he thought.<br> Medium: Paper and Ink<br>Time Taken: 45 minutes
+                  </div>
+              </div>
+        </div>
+        <div class="move">
+          <img src="arrow1.png">
+        </div>
+      </div>
+
+      <div class="credits">
+          <div class="social-media">
+            <a href="https://www.google.co.in/" target="_blank"><img src="Google Logo.png"></a>
+          </div>
+          <div class="social-media">
+            <a href="https://twitter.com/" target="_blank"><img src="Twitter Logo.png" ></a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.instagram.com/" target="_blank"><img src="Instagram Logo.png" ></a>
+          </div>
+          <div class="social-media">
+            <a href="https://in.linkedin.com/" target="_blank"><img src="Linkedin Logo.png"></a>
+          </div>
+          <div class="pages">
+              <div class="subnav">
+                  <button class="subnavbtn">H O M E</button>
+                  <div class="subnav-content">
+                      <a href="Website1.html">Home</a><br><br>
+                      Art<br><br>
+                      <a href="Website2.html">Illustrations</a><br><br>
+                      About<br><br>
+                  </div>
+              </div>
+          </div>
+          <div class="selec">
+              <img src="arrow.png">
+          </div>
+          <div class="watermark">
+            PRODUCT OF PRANJALI NALLUR
+          </div>
+      </div>
+  </body>
+</html>
