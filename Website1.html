@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width.initial-scale=1.0" />
+    <title>Pranjali Nallur</title>
+    <link rel="stylesheet" type="text/css" href="Website1.css" />
+  </head>
+  <body>
+      <div class="menu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="Website1.html">Home</a>
+                <a href="#">Art</a>
+                <a href="Website2.html">Illustrations</a>
+                <a href="#">About</a>
+              </div>
+              
+              <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              </div>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+      </div>
+      <div class="display">
+          <div class="heading">
+                <h3>PRANJALI NALLUR</h3><br>
+                <h1>PORTFOLIO.</h1>
+          </div>
+          <div class="back">
+              <img src="Ballet Photoshoot (2).jpg">
+          </div>
+      </div>
+      <div class="credits">
+        <div class="social-media">
+            <a href="https://www.google.co.in/" target="_blank"><img src="Google Logo.png"></a>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/" target="_blank"><img src="Twitter Logo.png" ></a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/" target="_blank"><img src="Instagram Logo.png" ></a>
+        </div>
+        <div class="social-media">
+            <a href="https://in.linkedin.com/" target="_blank"><img src="Linkedin Logo.png"></a>
+        </div>
+        <div class="pages">
+            <div class="subnav">
+            <button class="subnavbtn">H O M E</button>
+            <div class="subnav-content">
+                <a href="Website1.html">Home</a><br><br>
+                <a href="#link2">Art</a><br><br>
+                <a href="Website2.html">Illustrations</a><br><br>
+                <a href="#link4">About</a><br><br>
+              </div>
+              </div>
+        </div>
+        <div class="selec">
+            <img src="arrow.png">
+        </div>
+        <div class="watermark">
+            PRODUCT OF PRANJALI NALLUR
+        </div>
+      </div>
+  </body>
+</html>
